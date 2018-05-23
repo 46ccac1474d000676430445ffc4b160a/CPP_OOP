@@ -17,9 +17,9 @@ int main()
 
     for (int i = 0; i < N; i++)
     {
-        db[i].set_surname("Idiot");
-        db[i].set_group("DCP-1-17");
-        db[i].set_year(2000);
+        db[i].set_surname("Студент");
+        db[i].set_group("ЕПИ-1-16");
+        db[i].set_year(1998);
 
         int marks[5];
         for (int i = 0; i < 5; i++) marks[i] = rand() % 4;
